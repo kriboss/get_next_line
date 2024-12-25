@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kbossio <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: kbossio <kbossio@student.42firenze.it>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/01 16:04:29 by kbossio           #+#    #+#             */
-/*   Updated: 2024/12/01 16:04:33 by kbossio          ###   ########.fr       */
+/*   Updated: 2024/12/25 21:56:44 by kbossio          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,7 @@ char	*get_next_line(int fd)
 	buffer[fd] = trim_buffer(buffer[fd]);
 	return (res);
 }
-	//printf("\nres:%sbuffer:%s\n", res, buffer);
+
 /*
 #include <fcntl.h>
 
